@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>利益計算ツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>利益計算ツール</h1>
+    <form id="profit-form">
+      <label for="revenue">売上:</label>
+      <input type="number" id="revenue" placeholder="売上を入力">
+      
+      <label for="expense">経費:</label>
+      <input type="number" id="expense" placeholder="経費を入力">
+      
+      <button type="submit">計算</button>
+    </form>
+
+    <h2>利益: <span id="profit-result">0</span> 円</h2>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
